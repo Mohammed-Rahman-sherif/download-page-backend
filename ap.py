@@ -18,5 +18,5 @@ from fastapi.responses import FileResponse
 
 @ap.get('/result')
 def result_mp4():
-    video_path = "Media/Result/ZuYuY.mp4"
+    video_path = "plwNT.mp4"
     return FileResponse(video_path, media_type='video/mp4', filename='video.mp4')
